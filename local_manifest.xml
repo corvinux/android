@@ -11,7 +11,7 @@
   <project path="device/sony/pollux" name="mamenyaka/android_device_sony_pollux" remote="github" revision="phablet" />
   <project path="device/sony/pollux_windy" name="mamenyaka/android_device_sony_pollux_windy" remote="github" revision="phablet" />
   <project path="device/sony/pollux-common" name="mamenyaka/android_device_sony_pollux-common" remote="github" revision="phablet" />
-  <project path="device/sony/fusion3-common" name="mamenyaka/android_device_sony_fusion3-common" remote="github" revision="phablet" />
+  <project path="device/sony/fusion3-common" name="mamenyaka/android_device_sony_fusion3-common" remote="github" revision="phablet-saucy" />
   <project path="device/sony/qcom-common" name="mamenyaka/android_device_sony_qcom-common" remote="github" revision="phablet" />
   <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-10.1" />
   <project path="kernel/sony/apq8064" name="mamenyaka/android_kernel_sony_apq8064" remote="github" revision="phablet" />
