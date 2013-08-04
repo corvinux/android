@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
-  <project path="device/samsung/n8000" name="mamenyaka/android_device_samsung_n8000" remote="github" revision="phablet-saucy" />
-  <project path="device/samsung/n8013" name="mamenyaka/android_device_samsung_n8013" remote="github" revision="phablet-saucy" />
-  <project path="device/samsung/n80xx-common" name="mamenyaka/android_device_samsung_n80xx-common" remote="github" revision="phablet-saucy" />
-  <project path="device/samsung/smdk4412-common" name="mamenyaka/android_device_samsung_smdk4412-common" remote="github" revision="phablet-saucy" />
-  <project path="kernel/samsung/smdk4412" name="mamenyaka/android_kernel_samsung_smdk4412" remote="github" revision="phablet-saucy" />
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.1" />
-  <project path="vendor/samsung" name="mamenyaka/proprietary_vendor_samsung" remote="github" revision="phablet-saucy" />
-  
+<manifest>  
   <project path="device/sony/pollux" name="mamenyaka/android_device_sony_pollux" remote="github" revision="phablet" />
   <project path="device/sony/pollux_windy" name="mamenyaka/android_device_sony_pollux_windy" remote="github" revision="phablet" />
   <project path="device/sony/pollux-common" name="mamenyaka/android_device_sony_pollux-common" remote="github" revision="phablet" />
@@ -17,4 +9,6 @@
   <project path="kernel/sony/apq8064" name="mamenyaka/android_kernel_sony_apq8064" remote="github" revision="phablet" />
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-10.1" />
   <project path="vendor/sony" name="mamenyaka/proprietary_vendor_sony" remote="github" revision="phablet" />
+  <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" remote="github" revision="cm-10.1" />
 </manifest>
+
