@@ -6,6 +6,6 @@
   <project path="device/samsung/smdk4412-common" name="mamenyaka/android_device_samsung_smdk4412-common" remote="github" revision="phablet-saucy" />
   <project path="kernel/samsung/smdk4412" name="mamenyaka/android_kernel_samsung_smdk4412" remote="github" revision="phablet-saucy" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.1" />
-  <project path="vendor/samsung" name="mamenyaka/proprietary_vendor_samsung" remote="github" revision="phablet-saucy" />
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-10.1" />
 </manifest>
 
