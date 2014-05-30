@@ -15,6 +15,16 @@
   <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" remote="github" revision="cm-11.0" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
   
+  <remove-project name="aosp/platform/hardware/qcom/audio" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-11.0" groups="qcom" />
+  <remove-project name="aosp/platform/hardware/qcom/display" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="github" revision="cm-11.0" groups="qcom" />
+  <remove-project name="aosp/platform/hardware/qcom/media" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="github" revision="cm-11.0" groups="qcom" />
+
+  <remove-project name="aosp/platform/external/sepolicy" />
+  <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="github" revision="cm-11.0" groups="pdk" />
+  
   <remove-project name="aosp/device/asus/deb" />
   <remove-project name="aosp/device/asus/flo" />
   <remove-project name="aosp/device/asus/grouper" />
