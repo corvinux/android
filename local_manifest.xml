@@ -3,18 +3,18 @@
   <remote  name="github"
            fetch="https://git@github.com" />
 
-  <project path="device/sony/pollux_windy" name="mamenyaka/android_device_sony_pollux_windy" remote="github" revision="phablet-4.4.2_r1" />
+  <project path="device/sony/pollux_windy" name="CyanogenMod/android_device_sony_pollux_windy" remote="github" revision="cm-11.0" />
   <project path="device/sony/pollux-common" name="mamenyaka/android_device_sony_pollux-common" remote="github" revision="phablet-4.4.2_r1" />
-  <project path="device/sony/fusion3-common" name="mamenyaka/android_device_sony_fusion3-common" remote="github" revision="phablet-4.4.2_r1" />
-  <project path="device/sony/qcom-common" name="mamenyaka/android_device_sony_qcom-common" remote="github" revision="phablet-4.4.2_r1" />
+  <project path="device/sony/fusion3-common" name="CyanogenMod/android_device_sony_fusion3-common" remote="github" revision="cm-11.0" />
+  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="github" revision="cm-11.0" />
   <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="github" revision="cm-11.0" />
   <project path="kernel/sony/apq8064" name="mamenyaka/android_kernel_sony_apq8064" remote="github" revision="phablet-4.4.2_r1" />
   <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="github" revision="cm-11.0" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
-  
+
   <project path="external/elfutils" name="CyanogenMod/android_external_elfutils" remote="github" revision="cm-11.0" />
   <project path="external/qrngd" name="CyanogenMod/android_external_qrngd" remote="github" revision="cm-11.0" />
-  
+
   <remove-project name="aosp/platform/hardware/qcom/audio" />
   <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="github" revision="cm-11.0" groups="qcom" />
   <remove-project name="aosp/platform/hardware/qcom/display" />
@@ -24,7 +24,7 @@
 
   <remove-project name="aosp/platform/external/sepolicy" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="github" revision="cm-11.0" groups="pdk" />
-  
+
   <remove-project name="aosp/device/asus/deb" />
   <remove-project name="aosp/device/asus/flo" />
   <remove-project name="aosp/device/asus/grouper" />
