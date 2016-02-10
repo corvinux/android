@@ -8,4 +8,3 @@
   <project path="hardware/samsung" name="mamenyaka/android_hardware_samsung" remote="github" revision="phablet-saucy" />
   <project path="vendor/samsung" name="mamenyaka/proprietary_vendor_samsung" remote="github" revision="phablet-saucy" />
 </manifest>
-
