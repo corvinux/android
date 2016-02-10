@@ -1,0 +1,34 @@
+--- /tmp/qJPGbe_main.mk
++++ /home/andras/phablet/build/core/main.mk
+@@ -443,6 +443,7 @@
+ 	external/bzip2 \
+ 	external/checkpolicy \
+ 	external/e2fsprogs \
++	external/elfutils \
+ 	external/expat \
+ 	external/flac \
+ 	external/freetype \
+@@ -465,6 +466,7 @@
+ 	external/pigz \
+ 	external/protobuf \
+ 	external/qemu \
++	external/qrngd \
+ 	external/scrypt \
+ 	external/sepolicy \
+ 	external/sfntly \
+@@ -535,7 +537,9 @@
+ 	device/asus \
+ 	device/generic \
+ 	device/lge \
++	device/qcom \
+ 	device/samsung \
++	device/sony \
+ 	vendor/asus \
+ 	vendor/audience \
+ 	vendor/broadcom \
+@@ -547,6 +551,7 @@
+ 	vendor/nxp \
+ 	vendor/qcom \
+ 	vendor/samsung \
++	vendor/sony \
+ 	vendor/widevine
