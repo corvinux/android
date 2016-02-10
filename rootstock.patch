@@ -1,0 +1,10 @@
+--- rootstock-touch-install
++++ rootstock-touch-install
+@@ -48,6 +48,7 @@
+ 
+ prepare_ubuntu_system()
+ {
++	do_shell "mount /dev/block/platform/msm_sdcc.1/by-name/userdata /data"
+ 	do_shell "rm -f /data/system.img"
+ 	for data in system android; do
+ 		do_shell "rm -rf /data/$data-data"
